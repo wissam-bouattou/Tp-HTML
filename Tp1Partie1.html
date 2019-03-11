@@ -1,0 +1,35 @@
+<html>
+<head><title>Balises de mise en forme HTML </title></head>
+<body>
+<h1> <abbr title="Extensible Markup Language">XML</abbr> Shema <h1>
+<h2> Définition </h2>
+<p><abbr title="Extensible Markup Language"> <b>XML</abbr>  Shema </b>publié comme recommendation par le W3C en mai 2001 est un langage de description de format de 
+document XML permettant de definir la structure et le type de contenu d`un document XML . Cette définition permet de vérifier la validité de ce document .</p>
+<h2>Modele de XML Schema</h2>
+<p>La recommendation spécifie la validation des document XML a partir d`un modele abstrait , elle en fournit de format XML .Pour ce modele abstrait,
+un shéma est un ensemble de composants </p>
+<h2>Exemple </h2>
+<code>
+   <pre> 
+&lt; ?xml version= "1.0" encoding ="UTF-8"?&gt;
+&lt;xs :schema xmlns : xs = "https://www.w3.org/2001XMLSchema"&gt;
+&lt;xs:element name="personne"&gt;
+    &lt;xs:complexType&gt;
+	   &lt;xs:sequence&gt;
+	     &lt;xs:element name="nom"type "xs:string "/&gt;
+         &lt;xs:element name="prenom"type "xs:string "/&gt;
+		 &lt;xs:element name="date_naissance"type "xs:date "/&gt;
+		 &lt;xs:element name="etablissement"type "xs:string "/&gt;
+		 &lt;xs:element name="num_tel"type "xs:string "/&gt;
+
+	    &lt;/xs:sequence&gt;
+	&lt;/xs:complexType&gt;	
+&lt;/xs:element&gt;
+&lt;/xs:schema &gt;
+</pre>
+</code>
+<hr>
+<p><ins>citation</ins> <q> Les données sont une chose précieuse et dureront plus longtemps que les systemes eux-meme . </q> <i> (Tmie berner lee )</i></p>
+</body>
+
+</html>
